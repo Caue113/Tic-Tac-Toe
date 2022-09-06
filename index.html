@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title> Jogo da Velha</title>
+    <meta charset="UTF8">
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+
+<body onload="Start()">
+    <header>
+        <h1> Jogo da Velha!</h1>
+    </header>
+
+    <main>
+        <header>
+            <h2>Jogo da Velha!</h2>
+            <p> Clique em um quadrado para colorir</p>
+        </header>
+        
+        <div id="gameCanvas" class="grid-container">
+            <div class="grid-item" onclick="ChooseSquare(1)">1</div>
+            <div class="grid-item" onclick="ChooseSquare(2)">2</div>
+            <div class="grid-item" onclick="ChooseSquare(3)">3</div>
+            <div class="grid-item" onclick="ChooseSquare(4)">4</div>
+            <div class="grid-item" onclick="ChooseSquare(5)">5</div>
+            <div class="grid-item" onclick="ChooseSquare(6)">6</div>
+            <div class="grid-item" onclick="ChooseSquare(7)">7</div>
+            <div class="grid-item" onclick="ChooseSquare(8)">8</div>
+            <div class="grid-item" onclick="ChooseSquare(9)">9</div>
+        </div>
+        
+        <div class="infoPartida">
+            <h3>Turno do jogador</h3>
+            <img id="playerImage" />
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
