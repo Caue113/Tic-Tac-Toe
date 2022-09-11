@@ -29,20 +29,24 @@ main{
 
 .grid-item:hover{
     background-color: rgba(132, 193, 232, 255);
-
 }
 
 
 .infoPartida{
+    display: flexbox;
+    align-items: center;
+}
+
+.infoPartida-atual{
     display: flex;
     align-items: center;
 }
 
-.infoPartida > h3{
+.infoPartida-atual > h3{
     font-size: 2rem;
 }
 
-.infopartida > img{
+.infopartida-atual > img{
     background-color: #ff4500;
 
     margin-left: 1rem;
